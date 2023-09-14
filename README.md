@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Proyecto React de Kwik -E- Mark
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación e-commerce de ejemplo desarrollada en React para el curso de CoderHouse.  
+ 
 
-## Available Scripts
+### Para la 1ra pre Entrega se nos solicita:  
 
-In the project directory, you can run:
+- Iniciar un proyecto con `npx create-react-app`.  
+- Crear una carpeta con nombre 'components'.  
+- Crear 1 componente *'NavBar'* para tener la barra de navegación de la pagina con links estáticos.  
+- Crear 1 componente *'CartWidget'* que renderice un carrito de compras con una cantidad predefinida, este debe de renderizarse en el componente anterior(NavBar).  
+- Crear 1 componente *'ItemListContainer'* Donde se deben de utilizar *'props greeting'* para mostrar información dentro del contenedor.  
+- El uso de librerías de estilos, como *'bootstrap o materialize'*, a su vez poder integrar estilos específicos.
 
-### `npm start`
+## Cómo clonar y ejecutar el proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Siga estos pasos para clonar y ejecutar el proyecto localmente en su máquina:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Clonar el repositorio
 
-### `npm test`
+Ejecute el siguiente comando en su terminal para clonar el repositorio:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/Motrapatoni/PreEntrega1-Ramirez.git
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Instalar las dependencias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navegue al directorio del proyecto clonado y ejecute el siguiente comando para instalar las dependencias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+cd kwik-e-mark
+```
+```
+npm install
+```
 
-### `npm run eject`
+### 3. Ejecutar la aplicación
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Una vez que las dependencias se hayan instalado correctamente, ejecute el siguiente comando para iniciar la aplicación:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Esto iniciará la aplicación en modo de desarrollo. Puede abrir http://localhost:3000 en su navegador para ver la aplicación en funcionamiento.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4. Interactuar con la aplicación
 
-## Learn More
+La aplicación muestra una lista de artículos. Puede hacer clic en el botón "Leer Más" en cada artículo para ver un modal con texto de ejemplo.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+¡Eso es todo! Ahora puede explorar y probar la aplicación localmente en su máquina.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contribuciones
 
-### Code Splitting
+Si desea contribuir a este proyecto, siéntase libre de enviar un pull request o abrir un issue con sus sugerencias o mejoras.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por usar el proyecto de Kwik -E- Mark en React!
