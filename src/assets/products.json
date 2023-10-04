@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Nuggets de Pollo",
+        "price": 10,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget condimentum metus. Fusce aliquet interdum velit, in consequat neque convallis a. Nulla facilisi. Duis dignissim, risus id posuere.",
+        "category": "congelados",
+        "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/9D900DB3-435D-4AE4-9375-B152D2813750/Derivates/199C60FC-C264-43A3-B822-88AA5E50E954.jpg",
+        "quantity": 5
+    },
+    {
+        "id": 2,
+        "name": "Refresco de Cola",
+        "price": 20,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget condimentum metus. Fusce aliquet interdum velit, in consequat neque convallis a. Nulla facilisi. Duis dignissim, risus id posuere.",
+        "category": "bebidas",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0UDB3ADnWR10wm4mPZP3w73p0CJsOVDcgV6QFP4Mk7iNMa-uoMI77V2gJLhbKXnn9fpc&usqp=CAU",
+        "quantity": 3
+    },
+    {
+        "id": 3,
+        "name": "Cereal de Avena",
+        "price": 15,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget condimentum metus. Fusce aliquet interdum velit, in consequat neque convallis a. Nulla facilisi. Duis dignissim, risus id posuere.",
+        "category": "cereales",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3Zr5MIGWfmfmAToSc8LTPQRs_l_95LO4PEO1pBvDyP3xDp-bapChzQam-5NWJwICoxw&usqp=CAU",
+        "quantity": 8
+    },
+    {
+        "id": 4,
+        "name": "Spider-Man Comics",
+        "price": 25,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget condimentum metus. Fusce aliquet interdum velit, in consequat neque convallis a. Nulla facilisi. Duis dignissim, risus id posuere.",
+        "category": "comics",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWs-7k33Tvw1Iq0z00IP-zzN4L3fH0tljPZKYoL83xSFjeD1YScGK_tvdPzeSKeMgPk0&usqp=CAU",
+        "quantity": 2
+    },
+    {
+        "id": 5,
+        "name": "Camiseta de Superhéroe",
+        "price": 30,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget condimentum metus. Fusce aliquet interdum velit, in consequat neque convallis a. Nulla facilisi. Duis dignissim, risus id posuere.",
+        "category": "ropa",
+        "image": "Uhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwo6mJmQ12ht6CprCKYJbv8cC4w_XMSTU2ZSyeA0BLsf7x5eCLg4SgyDQUYI2nUGQn_Io&usqp=CAU",
+        "quantity": 4
+    },
+    {
+        "id": 6,
+        "name": "Nuggets de Pavo",
+        "price": 12,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget condimentum metus. Fusce aliquet interdum velit, in consequat neque convallis a. Nulla facilisi. Duis dignissim, risus id posuere.",
+        "category": "congelados",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjBVNK2WZxIk7hxtORCyvPu8-U0y9SQ1otx1K4oSV72_WZ9nXfpl9b0QRrVjI6pEnkxtM&usqp=CAU",
+        "quantity": 6
+    },
+    {
+        "id": 7,
+        "name": "Comics de Superhéroes",
+        "price": 18,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget condimentum metus. Fusce aliquet interdum velit, in consequat neque convallis a. Nulla facilisi. Duis dignissim, risus id posuere.",
+        "category": "comics",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfzwiKuyILHF7nfo_T4jUyYWM-wG2MLvtXaYErWg91irGWDRGn5YxEM4f89fImxusbF1I&usqp=CAU",
+        "quantity": 9
+    },
+    {
+        "id": 8,
+        "name": "Refresco de Naranja",
+        "price": 22,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget condimentum metus. Fusce aliquet interdum velit, in consequat neque convallis a. Nulla facilisi. Duis dignissim, risus id posuere.",
+        "category": "bebidas",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0yztXFKIv5YRi5isTaujHqWfN_Gd5ea-F-ldaRB9CnlDvQzkjbJXCNHKddSviglX7ApE&usqp=CAU",
+        "quantity": 1
+    },
+    {
+        "id": 9,
+        "name": "Cereal de Maíz",
+        "price": 10,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget condimentum metus. Fusce aliquet interdum velit, in consequat neque convallis a. Nulla facilisi. Duis dignissim, risus id posuere.",
+        "category": "cereales",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJx2_oJpwrQjWDs1ypfklscBuXHHmsJuP4B1CIdXI9qux8U69GnjGaHrZgqDTtKgjsT_o&usqp=CAU",
+        "quantity": 5
+    },
+    {
+        "id": 10,
+        "name": "Nuggets de Tofu",
+        "price": 20,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget condimentum metus. Fusce aliquet interdum velit, in consequat neque convallis a. Nulla facilisi. Duis dignissim, risus id posuere.",
+        "category": "congelados",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX_hGwkO8oURCF45nLkd_erh7lJSnca-b23WSPBzXJ54idKn_dHoLFvGY38flSRvQkcq0&usqp=CAU",
+        "quantity": 3
+    },
+    {
+        "id": 11,
+        "name": "Cereal de Chocolate",
+        "price": 5,
+        "description": "Delicioso cereal de chocolate con trozos de chocolate negro. Perfecto para acompañar tus mañanas o para cualquier momento del día.",
+        "category": "cereales",
+        "image": "",
+        "quantity": 10
+    }
+    
+]

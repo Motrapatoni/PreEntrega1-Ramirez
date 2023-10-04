@@ -8,10 +8,6 @@ export const NAVBAR_CATEGORIES_ROUTES = [
         name: 'Bebidas',
     },
     {
-        path: '/loteria',
-        name: 'Loteria',
-    },
-    {
         path: '/cereales',
         name: 'Cereales',
     },

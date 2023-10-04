@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-import { Link, NavLink, BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { NAVBAR_CATEGORIES_ROUTES } from '../routes/categoriesRoutes'; 
 import { NAVBAR_PRINCIPAL_ROUTES } from '../routes/principalsRoutes';
 import CartWidget from './CartWidget';
@@ -18,7 +18,7 @@ function NavBar() {
           <Nav className="me-auto">
             <NavDropdown title="Categorias" id="basic-nav-dropdown">
               {NAVBAR_CATEGORIES_ROUTES.map(route => (
-                <NavDropdown.Item as={NavLink} to={route.path} key={route.path}>
+                <NavDropdown.Item as={NavLink} to={`category${route.path}`} key={`category${route.path}`}>
                   {route.name}
                 </NavDropdown.Item>
               ))}

@@ -1,16 +1,26 @@
-import { useEffect, useState } from "react";
-import { getItemsList } from "../services/items";
+import { useEffect, useState } from 'react';
+import { getItemsList } from '../services/items';
 
 export const useItemsList = () => {
-    const [items, setItems] = useState([]);
+	const [items, setItems] = useState([]);
+	const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        getItemsList()
-        .then((data) => data.json())
-        .then((data) => setItems(data.results));
-    }, []);
+	useEffect(() => {
+		const fetchData = async () => {
+			try {
+				const data = await getItemsList();
+				setItems(data.results);
+				setLoading(false);
+			} catch (error) {
+				console.error('Error al obtener los datos:', error);
+				setLoading(false);
+			}
+		};
+		fetchData();
+	}, []);
 
-    return {
-        items
-    };
-}
+	return {
+		items,
+		loading
+	};
+};
